@@ -24,3 +24,11 @@
 #questionFive{
   display: none;
 }
+
+#restartButton{
+  display: none;
+}
+
+.jumbotron{
+  text-align: center;
+}
