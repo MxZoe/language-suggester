@@ -30,7 +30,9 @@
 }
 
 .jumbotron{
+  background-color: white;
   text-align: center;
+  border: 2px solid rgb(156, 156, 156);
 }
 
 .catPic{
@@ -41,5 +43,12 @@
 }
 
 .catPic:hover{
-  transform: scale(2);
+  transform: scale(1.75);
+}
+
+.card{
+  border: 1px solid rgb(156, 156, 156);
+}
+h3{
+  text-align: center;
 }
