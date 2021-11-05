@@ -1,6 +1,9 @@
 .btn{
   margin:1%;
 }
+#result{
+  display: none;
+}
 
 #submitButton{
   display: none;
