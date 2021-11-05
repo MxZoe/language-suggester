@@ -32,3 +32,14 @@
 .jumbotron{
   text-align: center;
 }
+
+.catPic{
+  width: 10%;
+  height: 10%;
+  border-radius: 5%;
+  border: 1px solid darkgray;
+}
+
+.catPic:hover{
+  transform: scale(2);
+}
