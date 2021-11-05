@@ -2,6 +2,22 @@
   margin:1%;
 }
 
-#submit-button{
+#submitButton{
+  display: none;
+}
+
+#questionTwo{
+  display: none;
+}
+
+#questionThree{
+  display: none;
+}
+
+#questionFour{
+  display: none;
+}
+
+#questionFive{
   display: none;
 }

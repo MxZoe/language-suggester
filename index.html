@@ -13,34 +13,142 @@
     </div>
     <form id="formOne">
       <div class="form-group">
-        <div class="questionOne">
-          <div class="radio">
-            <label>
-              <input type="radio" name="question1-1" value="1" checked>
-              Question 1-1
-            </label>
-            <br>
-            <label>
-              <input type="radio" name="question1-2" value="2" checked>
-              Question 1-2
-            </label>
-            <br>
-            <label>
-              <input type="radio" name="question1-3" value="3" checked>
-              Question 1-3
-            </label>
-            <br>
-            <label>
-              <input type="radio" name="question1-4" value="4" checked>
-              Question 1-4
-            </label>
-          </div> <!--end first radio div-->
-        </div><!--end questions div-->
-        <div id="next-button">
-          <button type="button" class="btn btn-primary">Next</button>
-        </div>
-        <div id="submit-button">
-          <button type="submit" class="btn btn-primary">Submit answers</button>
+        <div class="card">
+          <div class="card-body">
+            <div id="questionOne">
+              <h3>Question One</h3>
+              <div class="radio" id="q1">
+                <label>
+                  <input type="radio" name="question1" value="1" checked>
+                  Question 1-1
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question1" value="2">
+                  Question 1-2
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question1" value="3">
+                  Question 1-3
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question1" value="4">
+                  Question 1-4
+                </label>
+              </div> <!--end radio div-->
+            </div>
+            <!--end questionOne div-->
+            <div id="questionTwo">
+              <h3>Question Two</h3>
+              <div class="radio" id="q2">
+                <label>
+                  <input type="radio" name="question2" value="1" checked>
+                  Question 2-1
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question2" value="2">
+                  Question 2-2
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question2" value="3">
+                  Question 2-3
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question2" value="4">
+                  Question 2-4
+                </label>
+              </div> <!--end radio div-->
+            </div>
+            <!--end questionTwo div-->
+            <div id="questionThree">
+              <h3>Question Three</h3>
+              <div class="radio" id="q3">
+                <label>
+                  <input type="radio" name="question3" value="1" checked>
+                  Question 3-1
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question3" value="2">
+                  Question 3-2
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question3" value="3">
+                  Question 3-3
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question3" value="4">
+                  Question 3-4
+                </label>
+              </div> <!--end radio div-->
+            </div>
+            <!--end questionThree div-->
+            <div id="questionFour" id="q4">
+              <h3>Question Four</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="1" checked>
+                  Question 4-1
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question4" value="2">
+                  Question 4-2
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question4" value="3">
+                  Question 4-3
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question4" value="4">
+                  Question 4-4
+                </label>
+              </div> <!--end radio div-->
+            </div>
+            <!--end questionFour div-->
+            <div id="questionFive">
+              <h3>Question Five</h3>
+              <div class="radio" id="q5">
+                <label>
+                  <input type="radio" name="question5" value="1" checked>
+                  Question 5-1
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question5" value="2">
+                  Question 5-2
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question5" value="3">
+                  Question 5-3
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question5" value="4">
+                  Question 5-4
+                </label>
+              </div> <!--end radio div-->
+            </div>
+            <!--end questionFive div-->
+            <div id="result">
+              <h4>Your programming language is:</h4>
+              <p><span id="insertResult"></span></p>
+            </div>
+          </div><!--end card-body div-->
+        </div><!--end card div-->
+        <div id="buttons">
+          <button type="button" class="btn btn-primary" id="nextButton">Next</button>
+          <button type="submit" class="btn btn-primary" id="submitButton">Submit answers</button>
         </div>
       </div><!--end form-group div-->
     </form>
