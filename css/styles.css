@@ -1,3 +1,6 @@
+body{
+  margin-bottom: 10%;
+}
 .btn{
   margin:1%;
 }
@@ -72,14 +75,20 @@ h3{
 #nextButton{
   float: right;
 }
+#result{
+  margin-bottom: 5%;
+}
+
+#buttons{
+  margin-bottom: 5%;
+}
 
 footer{
   width: 100%;
-  position: fixed bottom;
-  height: 7%;
+  position: absolute;
+  bottom: 0;
+  height: 5%;
   background-color: lavender;
   text-align: center;
-  margin-top: 5%;
-
 }
 

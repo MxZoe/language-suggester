@@ -59,7 +59,8 @@ $(document).ready(function(){
       $("#insertResult").append("Your language is unknown. Sorry! Something went wrong")
     }
     $("#submitButton").hide();
-    $("#questionFive").hide()
+    $("#questionFive").hide();
+    $("#restartButton").show();
     $("#result").show();
     event.preventDefault();
   });
