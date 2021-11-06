@@ -72,3 +72,14 @@ h3{
 #nextButton{
   float: right;
 }
+
+footer{
+  width: 100%;
+  position: fixed bottom;
+  height: 7%;
+  background-color: lavender;
+  text-align: center;
+  margin-top: 5%;
+
+}
+
