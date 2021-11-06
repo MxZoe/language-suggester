@@ -85,10 +85,16 @@ h3{
 
 footer{
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  height: 5%;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  height: 8%;
   background-color: lavender;
   text-align: center;
 }
 
+.footer-paragraph{
+  margin-top: 1%;
+}

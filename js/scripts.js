@@ -40,6 +40,17 @@ $(document).ready(function(){
     }
     event.preventDefault();
   });
+  $("#restartButton").click(function(event){
+    $("#result").hide();
+    $("#questionOne").show();
+    $("#nextButton").show();
+    $("submitButton").hide();
+    $("#restartButton").hide();
+    counter = 0;
+    tally = 0;
+    event.preventDefault();
+  });
+
   $("form#formOne").submit(function(event){
     checkedValue = parseInt($("input[name='question1']:checked").val());
     tally += checkedValue;
