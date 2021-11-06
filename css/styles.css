@@ -90,24 +90,16 @@ h3{
 
 footer{
   width: 100%;
-<<<<<<< HEAD
-  position: absolute;
-  bottom: 0;
-  height: 5%;
-=======
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1030;
   height: 8%;
->>>>>>> d76c7caf841d60f20ac9295f417291a00792baed
   background-color: lavender;
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 .footer-paragraph{
   margin-top: 1%;
 }
@@ -115,4 +107,3 @@ footer{
 #result{
   text-align: center;
 }
->>>>>>> d76c7caf841d60f20ac9295f417291a00792baed
