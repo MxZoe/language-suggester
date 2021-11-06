@@ -1,8 +1,9 @@
 //business logic
-let counter = 1;
-let tally = 0;
+
 //UI logic
 $(document).ready(function(){
+  let counter = 1;
+  let tally = 0;
   $("#nextButton").click(function(event){
     let checkedValue =0;
     if(counter == 1){
@@ -41,33 +42,33 @@ $(document).ready(function(){
     event.preventDefault();
   });
   $("#restartButton").click(function(event){
+    counter = 1;
+    tally = 0;
+    checkedValue = 0;
     $("#result").hide();
     $("#questionOne").show();
     $("#nextButton").show();
     $("submitButton").hide();
     $("#restartButton").hide();
-    counter = 0;
-    tally = 0;
+    $("form#formOne").trigger("reset");
+
     event.preventDefault();
   });
 
   $("form#formOne").submit(function(event){
     checkedValue = parseInt($("input[name='question1']:checked").val());
     tally += checkedValue;
-    if(tally <= 5){
-      $("#insertResult").append("Your language is Python!")
+    if(tally >= 5 && tally <= 10 ){
+      $("#insertResult").text("Your language is Python!")
     }
-    else if(tally > 5 && tally <= 10){
-      $("#insertResult").append("Your language is C#!")
+    else if(tally >= 11 && tally <= 15){
+      $("#insertResult").text("Your language is C#!")
     }
-    else if(tally > 11 && tally <= 15){
-      $("#insertResult").append("Your language is Java!")
-    }
-    else if(tally > 15 && tally <=20){
-      $("#insertResult").append("Your language is Javascript!")
+    else if(tally >= 16 && tally <= 20){
+      $("#insertResult").text("Your language is Java!")
     }
     else{
-      $("#insertResult").append("Your language is unknown. Sorry! Something went wrong")
+      $("#insertResult").text("Your language is unknown. Sorry! Something went wrong")
     }
     $("#submitButton").hide();
     $("#questionFive").hide();
