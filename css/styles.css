@@ -30,9 +30,8 @@
 }
 
 .jumbotron{
-  background-color: white;
+  background-color: lavender;
   text-align: center;
-  border: 2px solid rgb(156, 156, 156);
 }
 
 .catPic{
@@ -47,8 +46,29 @@
 }
 
 .card{
-  border: 1px solid rgb(156, 156, 156);
+  border: 2px solid rgba(230, 230, 250);
+  box-shadow: 5px 3px 3px lightslategray;
 }
 h3{
   text-align: center;
+}
+
+.btn-primary{
+  border: 2px solid rgb(148, 148, 160);
+  background-color: lavender;
+  color: black;
+}
+
+.btn-primary:hover{
+  border: 2px solid rgb(89, 89, 97);
+  background-color: rgb(162, 162, 177);
+}
+
+.btn-primary:focus{
+  border: 2px solid rgb(89, 89, 97);
+  background-color: rgb(162, 162, 177);
+}
+
+#nextButton{
+  float: right;
 }
