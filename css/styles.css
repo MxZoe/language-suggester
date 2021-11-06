@@ -4,6 +4,9 @@ body{
 .btn{
   margin:1%;
 }
+.form-check-label{
+  margin: 5%;
+}
 #result{
   display: none;
 }
@@ -11,7 +14,9 @@ body{
 #submitButton{
   display: none;
 }
-
+#questionOne{
+  text-align: center;
+}
 #questionTwo{
   display: none;
 }
@@ -38,8 +43,8 @@ body{
 }
 
 .catPic{
-  width: 10%;
-  height: 10%;
+  width: 100px;
+  height: 100px;
   border-radius: 5%;
   border: 1px solid darkgray;
 }
@@ -85,10 +90,29 @@ h3{
 
 footer{
   width: 100%;
+<<<<<<< HEAD
   position: absolute;
   bottom: 0;
   height: 5%;
+=======
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  height: 8%;
+>>>>>>> d76c7caf841d60f20ac9295f417291a00792baed
   background-color: lavender;
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+.footer-paragraph{
+  margin-top: 1%;
+}
+
+#result{
+  text-align: center;
+}
+>>>>>>> d76c7caf841d60f20ac9295f417291a00792baed
