@@ -72,7 +72,7 @@ $(document).ready(function(){
     $("#submitButton").hide();
     $("#questionFive").hide()
     $("#result").show();
-    $("#restartButton").show()
+    $("#restartButton").show();
     event.preventDefault();
   });
 });
