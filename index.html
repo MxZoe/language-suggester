@@ -7,37 +7,41 @@
    <script src="js/scripts.js"></script>
    <title>Programming language quiz</title>
  </head> 
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Find which programming language is right for you!</h1>
-    </div>
+ <body>
+  <div class="jumbotron">
+   <h1>Find which programming language is right for you!</h1>
+  </div>
+  <div class="container">    
     <form id="formOne">
       <div class="form-group">
         <div class="card">
           <div class="card-body">
             <div id="questionOne">
               <h3>Which is your favorite cat?</h3>
-              <div class="radio" id="q1">
+              <div class="radio">
                 <label>
-                  <input type="radio" name="question1" value="1" checked>
+                  <input type="radio" name="question1"value="1" checked>
                   <img src="img/pippin.jpg" class="catPic" alt="An orange tabby cat">
                 </label>
-                <br>
+              </div>
+              <div class="radio">
                 <label>
                   <input type="radio" name="question1" value="2">
                   <img src="img/goo.jpg" class="catPic" alt="picture of a gray cat">
                 </label>
-                <br>
+              </div>
+              <div class="radio">
                 <label>
                   <input type="radio" name="question1" value="3">
                   <img src="img/mellie.jpg" class="catPic" alt="a picture of a calico cat">
                 </label>
-                <br>
+              </div>
+              <div class="radio">
                 <label>
                   <input type="radio" name="question1" value="4">
                   <img src="img/kezia.jpg" class="catPic" alt="a picture of a brown tabby cat">
                 </label>
-              </div> <!--end radio div-->
+              </div>
             </div>
             <!--end questionOne div-->
             <div id="questionTwo">
@@ -157,5 +161,13 @@
       <h3>Your programming language is: </h3>
       <p><span id="inputResult"></span></p>
     </div>
+    <div>
+      <footer class="footer fixed-bottom">
+        test
+      </footer>
+    </div>
   </div>
+  <!--end container div-->
+
+</body>
 </html>
